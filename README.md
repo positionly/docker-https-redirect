@@ -6,17 +6,17 @@ Redirects any url to it's https version.
 ## Install
 
 ```bash
-docker pull emqz/https-redirect
+docker pull positionly/https-redirect
 ```
 
 ## Run
 Make sure you expose port 80.
 
 ```bash
-docker run -d --restart=always -p 80:80 --name redirector emqz/https-redirect
+docker run -d --restart=always -p 80:80 --name redirector positionly/https-redirect
 ```
 
-Pushes to master will auto-build the emqz/https-redirect image on the official Docker registry.
+Pushes to master will auto-build the positionly/https-redirect image on the official Docker registry.
 
 ---
 
